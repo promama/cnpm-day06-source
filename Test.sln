@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{AD3D487A-3D22-448F-A321-649BD0005C8D}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+		server.js = server.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{1DDF37B4-66D3-44B3-9E52-D2CD22D2CD30}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+		user.js = user.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DDF37B4-66D3-44B3-9E52-D2CD22D2CD30} = {AD3D487A-3D22-448F-A321-649BD0005C8D}
+	EndGlobalSection
+EndGlobal
